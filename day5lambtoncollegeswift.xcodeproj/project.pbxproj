@@ -10,6 +10,9 @@
 		5E2D46F322B1B8AA008C90AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D46F222B1B8AA008C90AB /* main.swift */; };
 		5E2D46FA22B1B8C8008C90AB /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D46F922B1B8C8008C90AB /* person.swift */; };
 		5E2D46FC22B1B932008C90AB /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D46FB22B1B932008C90AB /* student.swift */; };
+		5E2E757822B30543009A6B46 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E757722B30543009A6B46 /* Display.swift */; };
+		5E2E757A22B30935009A6B46 /* address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E757922B30935009A6B46 /* address.swift */; };
+		5E2E757C22B3125D009A6B46 /* faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E757B22B3125D009A6B46 /* faculty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,9 @@
 		5E2D46F222B1B8AA008C90AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5E2D46F922B1B8C8008C90AB /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
 		5E2D46FB22B1B932008C90AB /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		5E2E757722B30543009A6B46 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		5E2E757922B30935009A6B46 /* address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = address.swift; sourceTree = "<group>"; };
+		5E2E757B22B3125D009A6B46 /* faculty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faculty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				5E2D46F222B1B8AA008C90AB /* main.swift */,
 				5E2D46FB22B1B932008C90AB /* student.swift */,
 				5E2D46F922B1B8C8008C90AB /* person.swift */,
+				5E2E757722B30543009A6B46 /* Display.swift */,
+				5E2E757922B30935009A6B46 /* address.swift */,
+				5E2E757B22B3125D009A6B46 /* faculty.swift */,
 			);
 			path = day5lambtoncollegeswift;
 			sourceTree = "<group>";
@@ -126,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2D46FA22B1B8C8008C90AB /* person.swift in Sources */,
+				5E2E757A22B30935009A6B46 /* address.swift in Sources */,
 				5E2D46F322B1B8AA008C90AB /* main.swift in Sources */,
+				5E2E757822B30543009A6B46 /* Display.swift in Sources */,
+				5E2E757C22B3125D009A6B46 /* faculty.swift in Sources */,
 				5E2D46FC22B1B932008C90AB /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

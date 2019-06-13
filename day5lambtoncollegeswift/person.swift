@@ -20,11 +20,11 @@ enum Gender{
     case MALE, FEMALE, OTHER
 }
 
-class Person
+class person: Display
 {
-    private var id : Int
+    private var id : Int = 0
     
-    var uniqueId = int
+    var uniqueId = Int
     {
         get {
             
@@ -62,6 +62,8 @@ class Person
         self.email = String()
         self.birthDate = Date()
     }
-    
+        func display() {
+            
+        }
     
 }

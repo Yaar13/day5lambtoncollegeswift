@@ -20,14 +20,26 @@ class Student: Person
         }
         return Float(sum)
     }
+    
     var per : Float
+    
     var result : String
     
     override init() {
-        print("init() of student")
-        self.marks = Dictionary<String, Float>()
-        self.total = Float()
-        self.per = Float()
-        self.result = String()
+    
+    print("init() of student")
+    
+    self.marks = Dictionary<String, Float>()
+    
+    self.total = Float()
+ 
+    self.per = Float()
+    
+    self.result = String()
+
+    }
+
+    override func display(){
+        
     }
 }
