@@ -2,11 +2,21 @@
 //  main.swift
 //  day5lambtoncollegeswift
 //
-//  Created by Gurparkash Kaur on 2019-06-12.
-//  Copyright © 2019 Gurparkash Kaur. All rights reserved.
+//  Created by parag on 2019-06-12.
+//  Copyright © 2019 parag All rights reserved.
 //
 
 import Foundation
 
-print("Hello, World!")
+var p = person()
+var s = Student()
+p.id = 100
+p.firstname = "Parag"
+p.fullname = "hello"
+
+
+
+
+ print(p.id!, p.firstnamne!, p.lastnamne!, p.fullname!)
+
 
